@@ -6,7 +6,8 @@ import requests
 
 
 
-
+url = "https://api.movidesk.com/public/v1/tickets"
+token = st.secrets["api_key"]
 
 # Parâmetros para filtrar os tickets
 params = {
