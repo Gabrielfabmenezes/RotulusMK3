@@ -188,10 +188,9 @@ def visualizar_dados():
             st.write(f"**Equipe Responsável**: {row['ownerTeam']}")
             st.write("---")  # melhorar a visualização
 def gerar_senha():
-    now = datetime.now()
-    hora = now.hour + 10
-    dia = now.day + 10
-    return f"{hora}{dia}"
+
+ senha = "sdtec2024"
+ return senha
 def atualizar_banco():
     response = requests.get(url, params=params)
 
